@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN Form</title>
+</head>
+<body>
+    <h2>Log In</h2>
+    <form action="dummy.html" method="post">
+        <!-- Form Tag is used to make a form for example login page signup page etc. -->
+        <!-- Id Used in FrontEnd And name Attribute Used in Backend -->
+        <label for="user"><b>Username:</b></label>
+        <input type="text" id="user" name="username"><br><br>
+        <label for="pass"><b>Password:</b></label>
+        <input type="passwprd" id="pass" name="psw"><br><br>
+
+        <!-- Radio Buttons Here -->
+        <label for="rb"> <b>Select Gender</b></label>
+        <input type="radio" id="rb1" name="rb" value="Male"> Male
+        <input type="radio" id="rb2" name="rb" value="Female"> Female
+        <input type="radio" id="rb3" name="rb" value="Other"> Other <br><br>
+
+        <!-- Checkbox Here -->
+        <label for="check"><b>Select Languages</b></label>
+        <input type="checkbox" id="ch1" name="check" value="English"> English
+        <input type="checkbox" id="ch2" name="check" value="Hindi"> Hindi
+        <input type="checkbox" id="ch3" name="check" value="Marathi"> Marathi <br><br>
+        
+    
+    
+        <!-- List is Here -->
+        
+        <label for="state"><b>Select State</b></label>
+            <select name="state" id="ct">
+            <option id="mah" value="Maharashtra">Maharashtra</option>
+            <option id="tel" value="telengana">Telangana</option>
+            <option id="kar" value="Karnataka">Karnataka</option>
+        </select>
+        <br><br>
+        <!-- This is an another type of list. in this list we get the searchbar in that we can able to search any item from the list easily . -->
+        <label for="city"><b>Select City</b></label>
+        <input type="text" name="" list="city">
+        <datalist id="city" >
+            <option id="ned" value="Nanded">Nanded</option>
+            <option id="kol" value="Kolhapur">Kolhapur</option>
+            <option id="mum" value="Karnataka">Karnataka</option>
+            <option id="hyd" value="Hydrabad">Hydrabad</option>
+        </datalist>
+        <br><br>
+
+        <!-- For Calender we use date atribute in input tag -->
+        <label for="dob">Date Of Birth</label>
+        <input type="date" name="dob"><br><br>
+
+        <!-- For Uploading any file we use file attribute -->
+        <label for="upld">Upload File</label>
+        <input type="file"  id="file1" name="upld"><br><br>
+
+        
+        <!-- Login/Submit Button Here -->
+        <input type="submit" value="Log In">
+    </form>
+
+    
+</body>
+</html>

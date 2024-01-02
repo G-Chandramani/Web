@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INTERNAL CSS</title>
+
+    <!-- Below is an style tag in which we can write internal css codes -->
+    <style>
+        /* HERE IS AN UNIVERSAL SELECTOR FOR CSS */
+        *{
+            margin: 10;
+            padding: 10;
+            box-sizing: border-box;
+        } 
+        /* END OF UNIVERSAL SELECTOR  */
+
+        /* Below is an css code for seperate tags just like direct applying css to the tags*/
+        body{
+            background-color:darkgray;
+        }
+        h1{
+            background-color: red;
+        }
+        p{
+            background-color: wheat;
+            font-family: fantasy;
+        }
+        
+        /* ID SELECTOR - This is element selection here i am using id attribute to select 1st paragraph tag for changing his background color */
+        #p1{
+            background-color: aqua;
+        }
+        #p3{
+            border: 5px groove blueviolet;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            
+        }
+
+        /* Class Selector - We need to use dot(.) if we want to apply css using class attribute*/
+        .female{
+                background-color: pink;
+        }
+        .male{
+                background-color: chartreuse;
+        }
+    </style>
+</head>
+<body>
+    <!-- ID SELECTOR - we are appling style using the id attribute of tags and direct with tag  -->
+    <!-- If we want to apply style using ID attribute we need to give hash(#) symbol with id name in style tag -->
+    <h1>Internal Css</h1>
+    <p id="p1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorem ad hic recusandae, ducimus sequi tempore facere doloribus voluptatibus ratione nisi corrupti laudantium, nostrum maiores tempora laborum adipisci repellat veniam provident labore quod totam. Eius, quaerat qui harum, alias error itaque consectetur, veritatis vero id molestias aliquam atque asperiores consequatur. Distinctio ex repellat, commodi dolorum, necessitatibus deserunt fugiat recusandae ipsa voluptas dolore quae nisi! Tempora sequi quam blanditiis. Saepe hic modi, nobis quisquam sit at iste rem culpa possimus corrupti unde doloribus nulla, molestias adipisci placeat expedita. Voluptatibus tenetur corrupti consectetur maxime possimus, iure aperiam error dicta inventore exercitationem minima.</p>
+
+    <p id="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ex reprehenderit animi aut enim quaerat consequatur. Corrupti earum saepe necessitatibus minima asperiores, assumenda eveniet rem deleniti similique, laborum provident. Ratione quam cumque doloribus dolorum labore unde. Nam maxime accusamus ipsa ullam, odio tenetur assumenda voluptate aspernatur aut? Minus sit temporibus eveniet autem distinctio maxime neque magnam atque asperiores aut quae quibusdam, natus deserunt quam aperiam ab doloribus odit nemo sequi dolores a harum molestias rem. Non sit natus quos omnis voluptas soluta quaerat illo? Commodi, laudantium, error tempore voluptatem aspernatur tenetur ipsum beatae aperiam mollitia voluptas, cumque tempora quibusdam harum.</p>
+
+    <p id="p3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ex reprehenderit animi aut enim quaerat consequatur. Corrupti earum saepe necessitatibus minima asperiores, assumenda eveniet rem deleniti similique, laborum provident. Ratione quam cumque doloribus dolorum labore unde. Nam maxime accusamus ipsa ullam, odio tenetur assumenda voluptate aspernatur aut? Minus sit temporibus eveniet autem distinctio maxime neque magnam atque asperiores aut quae quibusdam, natus deserunt quam aperiam ab doloribus odit nemo sequi dolores a harum molestias rem. Non sit natus quos omnis voluptas soluta quaerat illo? Commodi, laudantium, error tempore voluptatem aspernatur tenetur ipsum beatae aperiam mollitia voluptas, cumque tempora quibusdam harum.</p>
+
+
+    <!-- Below is Unordered list for list of student and i have applied class for list and using that class we can apply css on them -->
+    <h3>LIST OF STUDENTS</h3>
+    <ul>
+        <li class="female">Ajay</li>
+        <li class="male">Vijay</li>
+        <li class="female">Ankita</li>
+        <li class="male">Shubham</li>
+        <li class="female">Shradha</li>
+        <li class="male">Aman</li>
+        <li class="female">Anjali</li>
+    </ul>
+
+</body>
+</html>
