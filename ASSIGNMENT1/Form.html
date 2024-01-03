@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <!-- Q7. Create a form using following fields -->
+
+    <table>
+        <tbody>
+            <tr>
+                <td>
+                    <label for="user">Name</label>
+                </td>
+                <td><input name="user" type="text" required></td>
+            </tr>
+            <tr>
+                <td><label for="pass">Password</label></td>
+                <td><input name="pass" type="password" required></td>
+            </tr>
+            <tr>
+                <td><label for="address">Address</label></td>
+                <td>
+                    <textarea name="address" id="add" cols="20" rows="3"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="mail">EMail</label>
+                </td>
+                <td><input type="email" name="mail"  required></td>
+            </tr><br>
+            <tr>
+                <td><label for="rd">Favorite Color</label></td>
+                <td><input type="radio" name="rd">Red
+                    <input type="radio" name="rd">Green
+                    <input type="radio" name="rd">Blue</td>
+                
+            </tr>
+            <tr>
+                <td><label for="person">Favorite Person</label></td>
+                <td>
+                <input type="checkbox" name="person">VK
+                <input type="checkbox" name="person" id="">MSD
+                <input type="checkbox" name="person" id="">RS
+                <input type="checkbox" name="person" id="">SKY
+                <input type="checkbox" name="person" id="">ABD
+                </td>
+                
+            </tr>
+            <tr>
+                <td><label for="dob">Birthdate</label></td>
+                <td><input type="date" name="dob" id=""  required ></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="city">Select City</label>
+                </td>
+                <td>
+                    <select name="city" id="">
+                        <option value="">Nanded</option>
+                        <option value="">Pune</option>
+                        <option value="">Mumbai</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="button" name="submit" value="Submit"></td>
+            </tr>
+
+        </tbody>
+    </table>
+</body>
+</html>
