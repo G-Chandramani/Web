@@ -1,0 +1,30 @@
+body{
+    background-color: #f5f5f5;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #292b2c;
+}
+/* This is called as chiled combinator/ Child Selector it select the element 
+which is inside div tag */
+div > #p1 {
+    border: 2px yellow solid ;
+    margin-left: 50px;
+    margin-right: 50px; /* margin is the space between the border and outside content */
+    padding-top: 20px;  /* padding is the space between the content and border */
+    padding-bottom: 20px;
+}
+
+/* This is called as Adjacent Sibling Selector it select the element
+which is next to div tag */
+div + p {
+    color-scheme: #32b3e8;
+}
+
+/* Descendent Combinator  */
+div a{
+    margin-left: 50px;
+    background-color: red ;
+}
+
